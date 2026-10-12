@@ -1,0 +1,29 @@
+{
+  "name": "ropot-hotpot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3210",
+    "build": "next build",
+    "export": "STATIC_EXPORT=1 next build",
+    "export:pages": "STATIC_EXPORT=1 NEXT_PUBLIC_BASE_PATH=/ropot-hotpot next build",
+    "preview": "npx --yes serve out -l 4000",
+    "start": "next start -p 3210",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "13.2.0",
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "puppeteer-core": "^25.10.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5.9.0"
+  }
+}

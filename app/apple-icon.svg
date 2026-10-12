@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#B51618"/>
+  <g fill="#FFF1DE" transform="translate(50 56) scale(0.72) translate(-50 -50)">
+    <rect x="47" y="0" width="5" height="30" rx="2.5" transform="rotate(-26 49.5 15)"/>
+    <rect x="57" y="0" width="5" height="30" rx="2.5" transform="rotate(-11 59.5 15)"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M32 24 H68 A22 22 0 0 1 90 46 V50 A7 7 0 0 1 90 64 V68 A22 22 0 0 1 68 90 H32 A22 22 0 0 1 10 68 V64 A7 7 0 0 0 10 50 V46 A22 22 0 0 1 32 24 Z M38 46 a9.5 11 0 1 0 0.1 0 Z M62 46 a9.5 11 0 1 0 0.1 0 Z"/>
+  </g>
+</svg>
